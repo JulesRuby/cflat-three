@@ -35,8 +35,8 @@ namespace IinterfacesAndAbstractClasses
                 T parsedInput;
                 inputValid = ParseUserInput(userInput, out parsedInput);
 
-                Console.WriteLine($"inputValid : {inputValid}");
-                Console.WriteLine($"parsedInput : {parsedInput}");
+                //Console.WriteLine($"inputValid : {inputValid}");
+                //Console.WriteLine($"parsedInput : {parsedInput}");
 
                 if (!inputValid)
                 {
