@@ -17,9 +17,9 @@
 
             Dog userDog = new Dog(animalName, animalColour, animalAge);
 
-            Console.WriteLine($"User Dog:" +
-                $"Name: {userDog.Name}" +
-                $"Colour {userDog.Colour}" +
+            Console.WriteLine($"User Dog:\n" +
+                $"Name: {userDog.Name}\n" +
+                $"Colour {userDog.Colour}\n" +
                 $"Age: {userDog.Age}\n\n");
 
             userDog.Eat();
@@ -34,11 +34,10 @@
 
             Cat userCat = new Cat(animalName, animalColour, animalAge);
 
-            Console.WriteLine($"User Cat:" +
-               $"Name: {userCat.Name}" +
-               $"Colour {userCat.Colour}" +
+            Console.WriteLine($"User Cat:\n" +
+               $"Name: {userCat.Name}\n" +
+               $"Colour {userCat.Colour}\n" +
                $"Age: {userCat.Age}\n\n");
-
 
             userCat.Eat();
 

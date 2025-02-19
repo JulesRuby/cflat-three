@@ -27,7 +27,6 @@ namespace IinterfacesAndAbstractClasses
                     continue;
                 }
 
-                Console.WriteLine($"userInput Empty? ");
 
                 // I could also declare this T parsedInput within the function call itself to make the variable accessible
                 // however this is a little easier to read and follow, I think. The IDE harsses me to inline it, but I still

@@ -28,5 +28,12 @@
       <FileName>InputController.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="IinterfacesAndAbstractClasses.IAnimal">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAFAAAAAAAAEAAAAQAAAAAAAACAAAAABAAAAA=</HashCode>
+      <FileName>IAnimal.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
