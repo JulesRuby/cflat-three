@@ -5,7 +5,14 @@ using System.Text;
 
 namespace IinterfacesAndAbstractClasses
 {
-    internal class Cat
+    internal class Cat : Animal
     {
+
+        internal Cat(string name, string colour, int age) : base(name, colour, age) { }
+      
+        internal override void Eat()
+        {
+            Console.WriteLine("Cats eat mice.");
+        }
     }
 }
