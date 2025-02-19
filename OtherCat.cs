@@ -9,10 +9,10 @@ namespace IinterfacesAndAbstractClasses
     {
         public string Name { get; set; }
         public string Colour { get; set; }
-        public double Height { get; set; }
+        public string Height { get; set; }
         public int Age { get; set; }
 
-        public OtherCat(string name, string colour, double height, int age)
+        public OtherCat(string name, string colour, string height, int age)
         {
             Name = name;
             Colour = colour;
